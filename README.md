@@ -2,14 +2,14 @@
 
 
 # Installing CodeDeploy Agent
-sudo yum update -y
-sudo yum install -y ruby wget
-wget https://aws-codedeploy-eu-west-1.s3.eu-west-1.amazonaws.com/latest/install
-chmod +x ./install
-sudo ./install auto
+sudo yum update -y<br>
+sudo yum install -y ruby wget<br>
+wget https://aws-codedeploy-eu-west-1.s3.eu-west-1.amazonaws.com/latest/install<br>
+chmod +x ./install<br>
+sudo ./install auto<br>
 
 # Checking CodeDeploy Agent status
-sudo service codedeploy-agent status
+sudo service codedeploy-agent status<br>
 sudo service codedeploy-agent start
 
 # Installing Nginx
